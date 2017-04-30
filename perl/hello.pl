@@ -14,10 +14,10 @@ print {$fh} $d . "\n";
 
 {
 open my $fh, '<', 'output.txt';
-my ($a, $b, $c, $d) = <$fh>;
-print $a;
-print $b;
-print $c;
-print $d;
+my ($ma, $mb, $mc) = <$fh>;
+print $ma;
+print $mb;
+print $mc;
+print $md;
 close $fh;
 }
